@@ -1,6 +1,9 @@
 public class Test2
 {
-	public void m1(){
-	   System.out.println("Hi Snatosh");
+	public int m1(){
+	   return 10;
+	}
+	public static void main(String[] args){
+       System.out.println("From Main Method");
 	}
 }
